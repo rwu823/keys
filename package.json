@@ -1,0 +1,34 @@
+{
+  "name": "@rwu823/keys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rwu823/keys.git",
+  "author": "RoCky Wu <rocky823@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "babel-node ./scripts/build",
+    "lint": "eslint src && stylelint src/**/*.scss --syntax scss",
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.1.1",
+    "babel-istanbul-loader": "^0.1.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "eslint": "^3.15.0",
+    "html-webpack-plugin": "^2.28.0",
+    "jasmine": "^2.5.3",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.2",
+    "shelljs": "^0.7.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
